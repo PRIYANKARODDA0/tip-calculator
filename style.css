@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+body{
+    font-family: Georgia, serif;
+    font-weight: bolder;
+      background-image: url(https://img.freepik.com/premium-photo/abstract-blur-luxury-hotel-lobby-background_1339-98449.jpg?w=2000);
+      height:100%;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+}
+/* styling of header */
+#head{
+    text-align: center;
+    padding: 20px;
+    background-color: royalblue;
+    color: black;
+    box-shadow:0 10px 4px rgba(12, 91, 175, 0.15);
+}
+/* styling of main container */
+#container{
+    margin-top: 11vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+/* this a contanier which is made under main conatiner and styling of it*/
+#con{
+    padding: 55px;
+    border: 11px solid #F2AA4CFF;
+    border-radius: 16px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYw25xSbs7t-tMvwM8Ey7qPTVWVLI-UTxyOQ&usqp=CAU);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    width: 37%;
+    min-height: 400px;
+    
+
+}
+
+
+/* styling of label of input field */
+#bill ,#people,  #option{
+    padding: 20px 3px 20px 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    
+    
+}
+/* styling of every input field */
+input{
+    height: 30px;
+    text-align: left;
+    padding: 5px;
+    min-width: 60px;
+    
+}
+
+/* input:hover{
+    background-color: blue;
+} */
+/* styling of calculate button */
+#calculate{
+    margin-top: 20px;
+    color: black;
+    background-color: rgb(182, 201, 10);
+    width: 35%;
+    padding: 10px 10px 10px 2px;
+    border-radius: 5px;
+}
+/* styling of display which show calculation */
+#display{
+    text-align: left;
+    padding: 10px;
+    background-color: #00ffff;
+    margin-top: 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;   
+    color: #101820FF;
+}
+
+/* styling of footer */
+#footer{
+    margin-top: 11vh;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+    box-shadow:0 10px 4px rgba(12, 91, 175, 0.15);
+    
+}
+/* Styling print button */
+#print{
+    margin-top: 0.5vh;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+#clear{
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: auto;
+    
+}
